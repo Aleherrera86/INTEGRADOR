@@ -1,0 +1,108 @@
+
+
+
+.izquierdo{
+
+    background-image: url(../images/honolulu.jpg);
+   
+    background-size:cover;
+    background-position:center;
+    height: 380px;
+
+}
+.derecho{
+    background-color:rgb(52, 57, 63);
+    background-size: cover;
+    height: 380px;
+    color: rgb(218, 215, 215);
+}
+
+.codocodo
+{
+    font-family: Arial;
+    color: rgb(218, 215, 215);
+}
+
+
+
+.ima_principal {
+    position: relative;
+    height: 100vh;
+}
+
+.ima_principal .textoimaprincipal {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+#booking {
+    font-family: 'BEst', sans-serif;
+    background-image: url(../images/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#booking::before {
+    background:rgba(5, 5, 5, 0.6);
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+   padding: .25rem .4rem;
+   font-size: .875rem;
+   line-height: .5;
+   border-radius: .2rem;
+}
+
+
+.contenidob {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+    justify-content: flex-end;
+}
+
+.eleccionasistorar
+{
+
+    text-align: right;
+    color: white;
+}
+
+.eleccionasistorar h1 {
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+
+.eleccionasistorar p {
+    font-size: 14px;
+    color: white;
+}
+
+.conertir
+{
+    align-items: center;
+}
+
+.llamado2
+{
+    align-items: center;
+}
+  
+
